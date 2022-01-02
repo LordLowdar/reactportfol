@@ -8,7 +8,7 @@ function Header() {
       <div>
         <div>
           <nav class>
-            <ul>
+            <ul className="headerUl">
               <li>
                 <a href="about">About Me</a>
               </li>
