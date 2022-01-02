@@ -20,13 +20,6 @@ function Contact() {
   const change = (e) => {
     const { name, value } = e.target;
     setState({ ...state, [name]: value });
-    // if (e.target.name === 'email') {
-    // const isValid = validateEmail(e.target.value);
-    // if (!isValid) {
-    //   setErrMessage('Please Use a Valid Email');
-    // } else {
-    //   setErrMessage('');
-    // }
   };
   return (
     <Form>
@@ -52,7 +45,7 @@ function Contact() {
         />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Example textarea</Form.Label>
+        <Form.Label>Textarea</Form.Label>
         <Form.Control
           as="textarea"
           rows={3}

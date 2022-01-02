@@ -4,21 +4,23 @@ import '../style.css';
 function Header() {
   return (
     <header className="header">
-      <h2>Julian Williams</h2>
+      <h1>Julian Williams</h1>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <a href="about">About Me</a>
-            </li>
-            <li>
-              <a href="portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="contact">Contact Me</a>
-            </li>
-          </ul>
-        </nav>
+        <div>
+          <nav class>
+            <ul>
+              <li>
+                <a href="about">About Me</a>
+              </li>
+              <li>
+                <a href="portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="contact">Contact Me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
   );
