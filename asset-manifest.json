@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reactportfol/static/css/main.ef0954ae.chunk.css",
+    "main.js": "/reactportfol/static/js/main.c00f8466.chunk.js",
+    "main.js.map": "/reactportfol/static/js/main.c00f8466.chunk.js.map",
+    "runtime-main.js": "/reactportfol/static/js/runtime-main.23581f87.js",
+    "runtime-main.js.map": "/reactportfol/static/js/runtime-main.23581f87.js.map",
+    "static/js/2.23afabbe.chunk.js": "/reactportfol/static/js/2.23afabbe.chunk.js",
+    "static/js/2.23afabbe.chunk.js.map": "/reactportfol/static/js/2.23afabbe.chunk.js.map",
+    "index.html": "/reactportfol/index.html",
+    "static/css/main.ef0954ae.chunk.css.map": "/reactportfol/static/css/main.ef0954ae.chunk.css.map",
+    "static/js/2.23afabbe.chunk.js.LICENSE.txt": "/reactportfol/static/js/2.23afabbe.chunk.js.LICENSE.txt",
+    "static/media/Avatar.10547788.jpg": "/reactportfol/static/media/Avatar.10547788.jpg",
+    "static/media/BudgetTracker.98266cb5.png": "/reactportfol/static/media/BudgetTracker.98266cb5.png",
+    "static/media/Daily.b58b5440.png": "/reactportfol/static/media/Daily.b58b5440.png",
+    "static/media/DragonBlaster.18228fe3.png": "/reactportfol/static/media/DragonBlaster.18228fe3.png",
+    "static/media/KnowMore.2579647e.png": "/reactportfol/static/media/KnowMore.2579647e.png",
+    "static/media/ThereAndBack.f81b6bfa.png": "/reactportfol/static/media/ThereAndBack.f81b6bfa.png",
+    "static/media/UbiquitousHappi.b42e24a4.png": "/reactportfol/static/media/UbiquitousHappi.b42e24a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23581f87.js",
+    "static/js/2.23afabbe.chunk.js",
+    "static/css/main.ef0954ae.chunk.css",
+    "static/js/main.c00f8466.chunk.js"
+  ]
+}
