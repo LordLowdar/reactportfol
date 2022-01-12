@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## REACT PORTFOLIO
 
 Desciption:
@@ -28,3 +29,6 @@ then 'npm start'
 
 julian.th.williams@gmail.com is my email, feel free to reach out to me!
 github.com/LordLowdar Github Profile Link
+=======
+# reactportfol
+>>>>>>> e45e2b5dd659f45e00d9c218ced1d6e3ca74add8
