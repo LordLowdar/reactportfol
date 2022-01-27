@@ -10,13 +10,13 @@ function Header() {
           <nav class>
             <ul className="headerUl">
               <li>
-                <a href="about">About Me</a>
+                <a href="/about">About Me</a>
               </li>
               <li>
-                <a href="portfolio">Portfolio</a>
+                <a href="/portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="contact">Contact Me</a>
+                <a href="/contact">Contact Me</a>
               </li>
             </ul>
           </nav>
