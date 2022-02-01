@@ -30,6 +30,10 @@ header::after {
   clear: both;
 }
 
+#banner {
+  width: 100%;
+}
+
 #hook {
   color: var(--fun-font);
   text-shadow: 2px 2px 5px var(--nav-stag);
