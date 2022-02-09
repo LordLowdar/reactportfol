@@ -4,26 +4,25 @@ import '../style.css';
 
 function Header() {
   return (
-    <header className="header">
+    <div className="header">
       <h1>Julian Williams</h1>
+
       <div>
-        <div>
-          <nav class>
-            <ul className="headerUl">
-              <li>
-                <Link to="/about">About Me</Link>
-              </li>
-              <li>
-                <Link to="/portfolio">Portfolio</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact Me</Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <nav>
+          <ul className="headerUl">
+            <li>
+              <Link to="/about">About Me</Link>
+            </li>
+            <li>
+              <Link to="/portfolio">Portfolio</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact Me</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
+    </div>
   );
 }
 

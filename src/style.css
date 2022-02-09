@@ -19,8 +19,11 @@ h1 {
   color: var(--inner-color);
 }
 
-header {
-  height: 40px;
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 5%;
   background-color: var(--nav-stag);
 }
 
@@ -103,9 +106,7 @@ h2,
 h3 {
   color: var(--fun-font);
   text-shadow: 2px 2px 5px var(--nav-stag);
-  font-style: italic;
   font-family: 'Bahnschrift';
-  font-size: 150%;
 }
 
 p {
