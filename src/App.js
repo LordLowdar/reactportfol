@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -13,12 +14,13 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
         <Hero />
         {/* <Divide /> */}
+        <Header />
         <Routes>
-          <Route exact path="/reactportfol" element={<Welcome />} />
+          <Route exact path="/reactportfol" element={<About />} />
           <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

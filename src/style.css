@@ -19,12 +19,16 @@ h1 {
   color: var(--inner-color);
 }
 
+#root {
+  background-image: url('../src/images/MountainHero.jpg');
+}
+
 .header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   height: 5%;
-  background-color: var(--nav-stag);
+  /* background-color: var(--nav-stag); */
 }
 
 header::after {
@@ -35,6 +39,18 @@ header::after {
 
 #banner {
   width: 100%;
+}
+.heroName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.welcomeMessage {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  transform: translate(50%, -413%);
 }
 
 #hook {
@@ -143,7 +159,7 @@ nav {
   flex-wrap: nowrap;
 }
 
-.repo {
+/* .repo {
   font-style: italic;
   color: var(--fun-font);
 }
@@ -155,16 +171,16 @@ nav {
   color: var(--main-color);
   background: var(--nav-stag);
   font-size: 13px;
-}
+} */
 
-footerUl {
+/* footerUl {
   display: flex;
   flex-flow: row nowrap;
   padding: 0;
   gap: 2rem;
   justify-content: center;
   list-style-type: none;
-}
+} */
 
 input[type='text'] {
   background-color: var(--nav-stag);

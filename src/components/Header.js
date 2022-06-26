@@ -6,7 +6,6 @@ function Header() {
   return (
     <div className="header">
       <h1>Julian Williams</h1>
-
       <div>
         <nav>
           <ul className="headerUl">
@@ -18,6 +17,9 @@ function Header() {
             </li>
             <li>
               <Link to="/contact">Contact Me</Link>
+            </li>
+            <li>
+              <Link to="/resume">Resume</Link>
             </li>
           </ul>
         </nav>

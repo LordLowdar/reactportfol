@@ -10,13 +10,7 @@ function About() {
           <div>
             <img id="avatar" src={Avatar} alt="its me" />
           </div>
-          <p className="intro">
-            Greetings! I am a new aspiring web developer. Please take a minute
-            to check out my portfolio. I am making a career shift to the tech
-            sector and want to share my journey with you. I am currently
-            studying in a coding bootcamp through UC Davis and look to find
-            employment in
-          </p>
+          <p className="intro"></p>
         </div>
       </div>
     </div>

@@ -115,7 +115,11 @@ function Portfolio() {
         </div>
         <div>
           <h3>Dragon Blaster</h3>
-          <a href="https://scratch.mit.edu/projects/541116196/" target="_blank">
+          <a
+            href="https://scratch.mit.edu/projects/541116196/"
+            rel="noopener"
+            target="_blank"
+          >
             <img src={Dragon} alt="Another scratch game" />
           </a>
           <p>
